@@ -11,7 +11,7 @@
  *
  */
 function getSumOfDigits(n) {
-  let str = `${n}`;
+  let str = n.toString();
   for (let i = 0; i < str.length; i++) {
     str = [...str].reduce((acc, rec) => +acc + +rec);
     str += '';

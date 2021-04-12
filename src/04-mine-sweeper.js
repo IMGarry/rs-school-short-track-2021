@@ -54,7 +54,6 @@ function minesweeper(matrix) {
     result.push([...line]);
   }
   return result;
-  // .map(it => (it+'').split(''))
 }
 
 module.exports = minesweeper;
